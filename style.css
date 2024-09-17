@@ -1,0 +1,18 @@
+body{
+font-family: "Open Sans", sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.munna{
+    color: red;
+}
+.half{
+    width: 40%;
+    float: left;
+    margin: 3%;
+    padding:2%;
+}
+.half img{
+    width: 100%;
+}
