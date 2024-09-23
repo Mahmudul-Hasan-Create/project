@@ -5,6 +5,12 @@ margin: 0%;
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 .munna{
     color: red;
 }
@@ -22,9 +28,6 @@ h1{
     background-image: url("pic/top-banner.png");
     background-repeat: no-repeat;
 }
-section{
-    height: 500px;
-}
 .Ayy{
     text-decoration: none;
     background-image:linear-gradient( 45deg, lightsalmon,tomato);
@@ -32,5 +35,45 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
-
+}
+.dream-area{
+    background-image: url(pic/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exper-area{
+    float: inline-start;
+}
+.half-box-width{
+    border-radius: 10px;
+    margin: 2%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px grey;
+    height: 80%;
+    background-color: white;
+}
+.exper-area{
+    background-image: url(pic/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#gaming{
+    border-left: 7px solid;
+    border-image:linear-gradient( 180deg, salmon,tomato);
+    border-image-slice: 1;
+    float: left;
+    width: 40%;
+    height: 300px;
+}
+#something{
+    border-left: 7px solid;
+    border-image:linear-gradient( 180deg, blue,cyan);
+    border-image-slice: 1;
+    float: right;
+    width: 40%;
+    height: 300px;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
